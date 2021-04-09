@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_challenge_w2">
+        <activity android:name=".Profile"></activity>
+        <activity android:name=".LogIn" />
+        <activity android:name=".Onboarding3" />
+        <activity android:name=".Onboarding2" />
+        <activity
+            android:name=".Onboarding1"
+            android:label="OnBoarding1" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,6 +23,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

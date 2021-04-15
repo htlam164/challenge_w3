@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_challenge_w2">
-        <activity android:name=".Profile"></activity>
+        <activity android:name=".customdialog"></activity>
+        <activity android:name=".Welcome" />
+        <activity android:name=".Profile" />
         <activity android:name=".LogIn" />
         <activity android:name=".Onboarding3" />
         <activity android:name=".Onboarding2" />

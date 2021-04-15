@@ -14,7 +14,7 @@ class Onboarding3 : AppCompatActivity() {
         val button = findViewById<Button>(R.id.button2)
 
         button.setOnClickListener{
-            val intent = Intent(this, LogIn::class.java)
+            val intent = Intent(this, Welcome::class.java)
             startActivity(intent)
         }
     }
